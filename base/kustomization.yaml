@@ -1,4 +1,3 @@
 resources:
 - kservice.yaml
 - global-ops-configmap.yaml
-- argocd-admin.yaml
