@@ -9,10 +9,4 @@ spec:
         autoscaling.knative.dev/minScale: "0"
     spec:
       containers:
-        - livenessProbe:
-            httpGet:
-              path: /health/live
-          readinessProbe:
-            httpGet:
-              path: /health/ready
   traffic:
