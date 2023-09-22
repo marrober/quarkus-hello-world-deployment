@@ -1,5 +1,6 @@
 resources:
 - argocd-admin.yaml
+- image-pull-rolebinding.yaml
 - ../base
 - env-ops-configmap.yaml
 - r-d891d3/configmap.yaml
