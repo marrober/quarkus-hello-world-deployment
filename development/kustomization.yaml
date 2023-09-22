@@ -1,8 +1,9 @@
 resources:
+- argocd-admin.yaml
 - ../base
 - env-ops-configmap.yaml
 - r-d0e902/configmap.yaml
-- argocd-admin.yaml
+
 
 patches:
 - path: traffic-routing.yaml
