@@ -1,0 +1,20 @@
+apiVersion: argoproj.io/v1alpha1
+kind: AppProject
+metadata:
+  name: team-a
+  namespace: cicd
+spec:
+  clusterResourceWhitelist:
+    - group: '*'
+      kind: '*'
+  destinations:
+    - namespace: 'development'
+      server: '*'
+    - namespace: 'staging'
+      server: '*'
+    - namespace: 'production'
+      server: '*'
+  sourceRepos:
+    - '*'
+  sourceNamespaces:
+  - cicd
