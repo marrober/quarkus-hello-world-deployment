@@ -1,5 +1,4 @@
 resources:
-- argocd-admin.yaml
 - ../base
 - env-ops-configmap.yaml
 - r-d891d3/configmap.yaml
