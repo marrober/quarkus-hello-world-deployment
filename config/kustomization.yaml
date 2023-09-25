@@ -1,6 +1,5 @@
 resources:
 - argocd-app-project.yaml
+- applications.yaml
 - argocd-role-bindings.yaml
 #- image-pull-role-binding.yaml
-#- applications.yaml
-
