@@ -18,3 +18,4 @@ spec:
     - '*'
   sourceNamespaces:
   - cicd
+  - openshift-gitops
