@@ -16,5 +16,6 @@ spec:
           readinessProbe:
             httpGet:
               path: /health/ready
+            successThreshold: 1
           initialDelaySeconds: 60
   traffic:
