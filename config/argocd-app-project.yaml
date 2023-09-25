@@ -8,15 +8,7 @@ spec:
     - group: '*'
       kind: '*'
   destinations:
-    - namespace: 'development'
-      server: '*'
-    - namespace: 'staging'
-      server: '*'
-    - namespace: 'production'
-      server: '*'
-    - namespace: 'openshift-gitops'
+    - namespace: '*'
       server: '*'
   sourceRepos:
-    - '*'
-  sourceNamespaces:
-  - cicd
+    - https://github.com/marrober/*
