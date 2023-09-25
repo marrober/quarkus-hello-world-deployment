@@ -1,5 +1,6 @@
 resources:
 - ../base
+- namespace.yaml
 - env-ops-configmap.yaml
 - r-7b49bb/configmap.yaml
 
