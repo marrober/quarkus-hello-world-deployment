@@ -1,4 +1,5 @@
 resources:
+- namespace.yaml
 - argocd-admin.yaml
 - image-pull-rolebinding.yaml
 - ../base

@@ -1,5 +1,6 @@
 resources:
 - ../base
+- namespace.yaml
 - env-ops-configmap.yaml
 - r-d0e902/configmap.yaml
 
