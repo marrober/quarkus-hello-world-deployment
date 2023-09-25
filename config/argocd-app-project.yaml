@@ -14,8 +14,9 @@ spec:
       server: '*'
     - namespace: 'production'
       server: '*'
+    - namespace: 'openshift-gitops'
+      server: '*'
   sourceRepos:
     - '*'
   sourceNamespaces:
   - cicd
-  - openshift-gitops
