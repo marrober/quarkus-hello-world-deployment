@@ -1,8 +1,8 @@
 - op: add
   path: /spec/template/metadata
   value:
-    name: quarkus-hello-world-r-e1fc0c2
+    name: quarkus-hello-world-r-e1fc0c3
 - op: add
   path: /spec/template/spec/containers/0/image
   value:
-    image-registry.openshift-image-registry.svc.cluster.local:5000/cicd/quarkus-hello-world:main
+    image-registry.openshift-image-registry.svc.cluster.local:5000/cicd/my-serverless:main
