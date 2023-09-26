@@ -2,4 +2,4 @@
   path: /spec/traffic/-
   value:
     tag: r-e1fc0c3
-    revisionName: quarkus-hello-world-r-e1fc0c3
+    revisionName: myapp-r-e1fc0c3

@@ -1,7 +1,7 @@
 apiVersion: serving.knative.dev/v1
 kind: Service
 metadata:
-  name: quarkus-hello-world
+  name: myapp
 spec:
   template:
     metadata:
@@ -9,7 +9,7 @@ spec:
         autoscaling.knative.dev/minScale: "0"
     spec:
       containers:
-        - name: quarkus-hello-world
+        - name: myapp-container
           livenessProbe:
             httpGet:
               path: /health/live

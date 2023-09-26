@@ -1,7 +1,7 @@
 - op: add
   path: /spec/template/metadata
   value:
-    name: quarkus-hello-world-r-e1fc0c3
+    name: myapp-r-e1fc0c3
 - op: add
   path: /spec/template/spec/containers/0/image
   value:
