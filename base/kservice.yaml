@@ -9,7 +9,8 @@ spec:
         autoscaling.knative.dev/minScale: "0"
     spec:
       containers:
-        - livenessProbe:
+        - name: quarkus-hello-world
+          livenessProbe:
             httpGet:
               path: /health/live
             initialDelaySeconds: 60
