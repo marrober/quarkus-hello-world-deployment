@@ -1,5 +1,5 @@
 - op: add
   path: /spec/traffic/-
   value:
-    tag: r-e1fc0c
-    revisionName: quarkus-hello-world-r-e1fc0c
+    tag: r-e1fc0c1
+    revisionName: quarkus-hello-world-r-e1fc0c1
